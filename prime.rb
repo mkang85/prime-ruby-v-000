@@ -11,10 +11,9 @@ def prime?(n)
      while i < n.abs
        if n.abs % i == 0
          return false
-       else
-         return true
        end
        i += 1
    end
  end
+ return true
 end
