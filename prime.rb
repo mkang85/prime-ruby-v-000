@@ -4,6 +4,8 @@ def prime?(n)
      return true
    elsif n.abs == 1
      return false
+   elsif n == 0
+     return false
    else
      i = 2
      while i < n.abs
