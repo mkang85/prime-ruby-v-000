@@ -12,4 +12,5 @@ def prime?(n)
        end
        i += 1
    end
+ end
 end
