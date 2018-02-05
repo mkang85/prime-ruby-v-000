@@ -2,6 +2,8 @@
 def prime?(n)
    if n == 2 || n == 3
      return true
+   elsif n.abs == 1
+     return false
    else
      i = 2
      while i < n.abs
